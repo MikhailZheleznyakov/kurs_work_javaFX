@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.EntranceController">
+   <children>
+      <PasswordField fx:id="passwordEntranceText" layoutX="247.0" layoutY="206.0" />
+      <TextField fx:id="loginEntranceText" layoutX="247.0" layoutY="111.0" />
+      <Label fx:id="loginEntranceLabel" layoutX="247.0" layoutY="69.0" prefHeight="18.0" prefWidth="42.0" text="Логин" />
+      <Label fx:id="passwordEntranceLabel" layoutX="247.0" layoutY="164.0" text="Пароль" />
+      <Button layoutX="300.0" layoutY="300.0" mnemonicParsing="false" onAction="#handleEntrance" text="Вход" />
+   </children>
+</AnchorPane>

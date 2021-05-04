@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.controllers.MainPageController">
+   <children>
+      <MenuBar layoutX="14.0" layoutY="14.0">
+        <menus>
+          <Menu mnemonicParsing="false" text="Главная">
+            <items>
+                  <MenuItem mnemonicParsing="false" onAction="#handleMainClient" text="Клиенты" />
+              <MenuItem mnemonicParsing="false" onAction="#handleMainTransport" text="Транспорт" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleMainRate" text="Тарифы" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleMainDriver" text="Водители" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleMainOrder" text="Заказы" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleMainCargo" text="Грузы" />
+                  <MenuItem mnemonicParsing="false" onAction="#handleMainTown" text="Города" />
+            </items>
+          </Menu>
+            <Menu mnemonicParsing="false" text="Статистика">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Статистика перевозок" />
+                  <MenuItem mnemonicParsing="false" text="Статистика износа транспорта" />
+                  <MenuItem mnemonicParsing="false" text="Статистика по городам" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Справка">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Открыть калькулятор" />
+              </items>
+            </Menu>
+            <Menu mnemonicParsing="false" text="Помощь">
+              <items>
+                <MenuItem mnemonicParsing="false" text="Action 1" />
+              </items>
+            </Menu>
+        </menus>
+      </MenuBar>
+   </children>
+</AnchorPane>
